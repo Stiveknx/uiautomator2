@@ -1174,7 +1174,7 @@ Normally, when the Python program exits, the UiAutomator service on the device a
 However, you can also stop the service via an API call.
 
 ```python
-d.uiautomator.stop() # Stops the uiautomator service on the device
+d.stop_uiautomator() # Stops the uiautomator service on the device
 # or d.service("uiautomator").stop()
 ```
 
